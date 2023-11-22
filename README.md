@@ -1,5 +1,6 @@
 # SSP
 
+[Slock Dirk](https://www.eurecom.fr/en/people/slock-dirk)
 
 ## ABSTRACT
 
