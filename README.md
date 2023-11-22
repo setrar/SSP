@@ -1,5 +1,9 @@
 # SSP
 
+$$
+\phi_X (t) = E[exp(itX)]
+$$
+
 ## ABSTRACT
 
 The proper treatment of modern communication systems requires the modelling of signals as random processes. Often the signal description will involve several parameters such as carrier frequency, timing, channel impulse response, noise variance, and interference spectrum. The values of these parameters are unknown and need to be estimated for the receiver to be able to proceed.
