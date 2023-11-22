@@ -1,0 +1,8 @@
+
+- [ ] [Statistics with Julia: Fundamentals for Data Science, Machine Learning and Artificial Intelligence (Springer Series in the Data Sciences) 1st ed. 2021 Edition by Yoni Nazarathy (Author), Hayden Klok (Author)](https://www.amazon.com/Statistics-Julia-Fundamentals-Artificial-Intelligence/dp/3030709000)
+- [ ] [StatisticsWithJuliaPlutoNotebooks.jl](https://github.com/StatisticalRethinkingJulia/StatisticsWithJuliaPlutoNotebooks.jl)
+
+---
+- [ ] [StatisticalRethinkingJulia](https://github.com/StatisticalRethinkingJulia)
+  - [ ] [Chapter 14. Adventures in Covariance](https://shmuma.github.io/rethinking-2ed-julia/14-Chapter%2014.%20Adventures%20in%20Covariance.html)
+---
