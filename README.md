@@ -28,26 +28,43 @@ Course Policies: Attendance of the lab. sessions are mandatory (15% of the final
 The transparencies used are available. A non-finalized handout is also available.
 
 REQUIREMENTS
-Basics in probability and random variables/processes, basics in (digital) signal processing (linear systems, Fourier Transform, z transform), basics in linear algebra (vectors, matrices, solving linear equations). Notions from Optimization. The useful prerequisite course at EURECOM: “Essential Mathematical Methods for Engineers” (MathEng).
+
+  Basics in probability and random variables/processes, basics in (digital) signal processing (linear systems, Fourier Transform, z transform), 
+  basics in linear algebra (vectors, matrices, solving linear equations). Notions from Optimization. 
+  The useful prerequisite course at EURECOM: “Essential Mathematical Methods for Engineers” (MathEng).
 
 DESCRIPTION
-Parameter estimation: Random parameters, Bayesian estimation: minimum mean squared error estimation, orthogonality principle, maximum a posteriori estimation, performance bounds, linear estimation, the linear model. Deterministic unknown parameters: minimum variance estimation, bias, efficiency, consistency, Cramer-Rao lower bound, maximum likelihood estimation, EM algorithm, least-squares and BLUE methods, method of moments, and the linear model.
-Spectrum estimation: Non-parametric techniques: periodogram, windowing, spectral leakage and resolution. Parametric techniques: autoregressive processes, linear prediction, maximum entropy, Levinson and Schur algorithms, lattice filters. Time and frequency domain localization, short-time Fourier transform, wavelet transform, QMF, subbands, perfect reconstruction filter banks.
-Optimal filtering: Wiener filtering, non-causal, causal and FIR, application to channel equalization. Kalman filtering: time-varying and time-invariant state-space models. Application to channel tracking.
-Adaptive Filtering: Some elements from optimization theory, steepest-descent algorithm. The LMS (least mean Square) and RLS (Recursive Least-Squares) algorithms, performance analysis. Tracking time-varying parameters, and applications.
-Sinusoids in Noise: Maximum likelihood estimation, Cramer-Rao bounds, IQML algorithm and variations, subspace techniques, moment matching, MVDR filtering, Prony and Pisarenko techniques, Capon method, adaptive notch filtering.
+
+`Parameter estimation`: Random parameters, Bayesian estimation: minimum mean squared error estimation, orthogonality principle, maximum a posteriori estimation, performance bounds, linear estimation, the linear model. 
+
+`Deterministic unknown parameters`: minimum variance estimation, bias, efficiency, consistency, Cramer-Rao lower bound, maximum likelihood estimation, EM algorithm, least-squares and BLUE methods, method of moments, and the linear model.
+
+`Spectrum estimation`: Non-parametric techniques: periodogram, windowing, spectral leakage and resolution. Parametric techniques: autoregressive processes, linear prediction, maximum entropy, Levinson and Schur algorithms, lattice filters. Time and frequency domain localization, short-time Fourier transform, wavelet transform, QMF, subbands, perfect reconstruction filter banks.
+
+`Optimal filtering`: Wiener filtering, non-causal, causal and FIR, application to channel equalization. Kalman filtering: time-varying and time-invariant state-space models. Application to channel tracking.
+
+`Adaptive Filtering`: Some elements from optimization theory, steepest-descent algorithm. The LMS (least mean Square) and RLS (Recursive Least-Squares) algorithms, performance analysis. Tracking time-varying parameters, and applications.
+
+`Sinusoids in Noise`: Maximum likelihood estimation, Cramer-Rao bounds, IQML algorithm and variations, subspace techniques, moment matching, MVDR filtering, Prony and Pisarenko techniques, Capon method, adaptive notch filtering.
+
 Learning Outcomes:
 
 Bayesian and deterministic parameter estimation methods;
+
 Non-parametric spectrum estimation, linear prediction and auto-regressive modeling;
+
 Wiener filtering;
+
 Adaptive filtering (in particular the LMS algorithm, the main stochastic gradient technique).
+
 Nb hours: 42.00
 
 Evaluation: 
 
 Homework (15% of the final grade),
+
 Lab reports (15% of the final grade),
+
 Final written exam (70% of the final grade) - 2 hours - all authorized documents
 
 # References
