@@ -2,7 +2,7 @@
 
 ## Lecture 1
 
-## The Multivariate Gaoussian Distribution
+## The Multivariate Gaussian Distribution
 
 ```math
 M = \begin{bmatrix}
