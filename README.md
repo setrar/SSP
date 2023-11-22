@@ -30,8 +30,9 @@ The transparencies used are available. A non-finalized handout is also available
 
 ## REQUIREMENTS
 
-  Basics in probability and random variables/processes, basics in (digital) signal processing (linear systems, Fourier Transform, z transform), 
-  basics in linear algebra (vectors, matrices, solving linear equations). Notions from Optimization. 
+  - Basics in probability and random variables/processes, basics in (digital) signal processing (linear systems, Fourier Transform, z transform), 
+  - basics in linear algebra (vectors, matrices, solving linear equations). Notions from Optimization. 
+  
   The useful prerequisite course at EURECOM: “Essential Mathematical Methods for Engineers” (MathEng).
 
 ## DESCRIPTION
