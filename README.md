@@ -27,13 +27,13 @@ Course Policies: Attendance of the lab. sessions are mandatory (15% of the final
 
 The transparencies used are available. A non-finalized handout is also available.
 
-REQUIREMENTS
+## REQUIREMENTS
 
   Basics in probability and random variables/processes, basics in (digital) signal processing (linear systems, Fourier Transform, z transform), 
   basics in linear algebra (vectors, matrices, solving linear equations). Notions from Optimization. 
   The useful prerequisite course at EURECOM: “Essential Mathematical Methods for Engineers” (MathEng).
 
-DESCRIPTION
+## DESCRIPTION
 
 `Parameter estimation`: Random parameters, Bayesian estimation: minimum mean squared error estimation, orthogonality principle, maximum a posteriori estimation, performance bounds, linear estimation, the linear model. 
 
@@ -47,25 +47,20 @@ DESCRIPTION
 
 `Sinusoids in Noise`: Maximum likelihood estimation, Cramer-Rao bounds, IQML algorithm and variations, subspace techniques, moment matching, MVDR filtering, Prony and Pisarenko techniques, Capon method, adaptive notch filtering.
 
-Learning Outcomes:
+## Learning Outcomes:
 
-Bayesian and deterministic parameter estimation methods;
-
-Non-parametric spectrum estimation, linear prediction and auto-regressive modeling;
-
-Wiener filtering;
-
-Adaptive filtering (in particular the LMS algorithm, the main stochastic gradient technique).
+- Bayesian and deterministic parameter estimation methods;
+- Non-parametric spectrum estimation, linear prediction and auto-regressive modeling;
+- Wiener filtering;
+- Adaptive filtering (in particular the LMS algorithm, the main stochastic gradient technique).
 
 Nb hours: 42.00
 
-Evaluation: 
+## Evaluation: 
 
-Homework (15% of the final grade),
-
-Lab reports (15% of the final grade),
-
-Final written exam (70% of the final grade) - 2 hours - all authorized documents
+- Homework (15% of the final grade),
+- Lab reports (15% of the final grade),
+- Final written exam (70% of the final grade) - 2 hours - all authorized documents
 
 # References
 
