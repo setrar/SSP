@@ -8,9 +8,11 @@ The proper treatment of modern communication systems requires the modelling of s
 
 Parameters may also occur in the description of other random analysis of communication networks, or in the descriptions of sounds and images, or other data, e.g. geolocation. This course introduces the basic techniques for estimation of a finite set of parameters, of a signal spectrum or of one complete signal based on a correlated signal (optimal filtering, Wiener and Kalman filtering). The techniques introduced in this course have a proven track record of many decades. They are complementary to the techniques introduced in the EURECOM course “Applied statistics” (AppStat). They are useful for other application branches such as machine learning, in the EURECOM courses “Machine Learning and Intelligent System” (MALIS) and “Advanced Statistical Inference” (ASI).
 
-Teaching and Learning Methods: Lectures, homework, exercise, and Lab session (groups of 1-2 students depending on the size of the class).
+Teaching and Learning Methods: 
+  Lectures, homework, exercise, and Lab session (groups of 1-2 students depending on the size of the class).
 
-Course Policies: Attendance of the lab. sessions are mandatory (15% of the final grade).
+Course Policies: 
+  Attendance of the lab. sessions are mandatory (15% of the final grade).
 
 | BIBLIOGRAPHY |
 |-| 
