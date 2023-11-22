@@ -12,8 +12,8 @@ Parameters may also occur in the description of other random analysis of communi
 
 `Course Policies`: Attendance of the lab. sessions are mandatory (15% of the final grade).
 
-|: BIBLIOGRAPHY |
-|-| 
+| BIBLIOGRAPHY |
+|:-| 
 | Book: VAN TREES H.L. Detection, Estimation and Modulation Theory, volume 1. Wiley, New York, 1968, 1176p.                    |
 | Book: SCHARF L. Statistical Signal Processing. Addison-Wesley, Reading, MA, 1991, 544p.                                      |
 | Book: KAY S.M. Fundamentals of Statistical Signal Processing: Estimation Theory. Prenctice Hall, 1993, 608p.                 |
