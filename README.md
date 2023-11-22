@@ -1,8 +1,5 @@
 # SSP
 
-$$
-\phi_X (t) = E[exp(itX)]
-$$
 
 ## ABSTRACT
 
@@ -14,18 +11,20 @@ Teaching and Learning Methods: Lectures, homework, exercise, and Lab session (gr
 
 Course Policies: Attendance of the lab. sessions are mandatory (15% of the final grade).
 
-BIBLIOGRAPHY
-Book: VAN TREES H.L. Detection, Estimation and Modulation Theory, volume 1. Wiley, New York, 1968, 1176p.
-Book: SCHARF L. Statistical Signal Processing. Addison-Wesley, Reading, MA, 1991, 544p.
-Book: KAY S.M. Fundamentals of Statistical Signal Processing: Estimation Theory. Prenctice Hall, 1993, 608p.
-Book: PORAT B. Digital Processing of Random Signals: Theory and Methods. Prentice Hall, 1994, 462p.
-Book: THERRIEN C.W. Discrete Random Signals and Statistical Signal Processing. Prentice Hall, 1992, 576p.
-Book: HAYES M.H. Statistical Digital Signal Processing and Modeling Wiley. WILEY, 1996, 628p. (PDF available on the internet)
-Book: KAY S. Modern Spectral Estimation: Theory and Application. Prentice Hall, 1988.
-Book: STOICA P., MOSES R. Spectral Analysis of Signals. Prentice hall, 2005. http://user.it.uu.se/ps/SAS-new.pdf
-Book: KAILATH T. Lectures on Wiener and Kalman Filtering. Springer-Verlag, Wien – New York, 1981, 191p.
-Book: KAILATH T., SAYED A.H., HASSIBI B. Linear Estimation. Prentice Hall, 2000, 880p.
-Book: SAYED A.H. Adaptive Filters. Wiley-IEEE Press, 2008, 1168p.
+| BIBLIOGRAPHY |
+|-| 
+| Book: VAN TREES H.L. Detection, Estimation and Modulation Theory, volume 1. Wiley, New York, 1968, 1176p.                    |
+| Book: SCHARF L. Statistical Signal Processing. Addison-Wesley, Reading, MA, 1991, 544p.                                      |
+| Book: KAY S.M. Fundamentals of Statistical Signal Processing: Estimation Theory. Prenctice Hall, 1993, 608p.                 |
+| Book: PORAT B. Digital Processing of Random Signals: Theory and Methods. Prentice Hall, 1994, 462p.                          |
+| Book: THERRIEN C.W. Discrete Random Signals and Statistical Signal Processing. Prentice Hall, 1992, 576p.                    |
+| Book: HAYES M.H. Statistical Digital Signal Processing and Modeling Wiley. WILEY, 1996, 628p. (PDF available on the internet)|
+| Book: KAY S. Modern Spectral Estimation: Theory and Application. Prentice Hall, 1988.                                        |
+| Book: STOICA P., MOSES R. Spectral Analysis of Signals. Prentice hall, 2005. http://user.it.uu.se/ps/SAS-new.pdf             |
+| Book: KAILATH T. Lectures on Wiener and Kalman Filtering. Springer-Verlag, Wien – New York, 1981, 191p.                      |
+| Book: KAILATH T., SAYED A.H., HASSIBI B. Linear Estimation. Prentice Hall, 2000, 880p.                                       |
+| Book: SAYED A.H. Adaptive Filters. Wiley-IEEE Press, 2008, 1168p.                                                            |
+
 The transparencies used are available. A non-finalized handout is also available.
 
 REQUIREMENTS
