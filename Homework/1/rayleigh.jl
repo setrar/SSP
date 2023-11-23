@@ -1,4 +1,4 @@
-module Tempo
+module custom
 
 import Distributions #: Rayleigh, Sampleable, Continuous, Univariate
 
@@ -34,11 +34,57 @@ function Base.rand(d::ScaledShiftedRayleighSampler)
 end
 
 """
-https://github.com/JuliaStats/Distributions.jl/blob/master/src/univariate/continuous/rayleigh.jl
+            https://github.com/JuliaStats/Distributions.jl/blob/master/src/univariate/continuous/rayleigh.jl
 """
 
-function Distributions.mean(d::Distributions.Univariate)
-    return 0
+struct ScaledShiftedRayleigh{T<:Real} <: Distributions.ContinuousUnivariateDistribution
+    α::T
+    σ::T
+    ScaledShiftedRayleigh{T}(α::T, σ::T) where {T<:Real} = new{T}(α, σ)
 end
 
+function ScaledShiftedRayleigh(α::T, σ::T; check_args::Bool=true) where {T<:Real}
+    Distributions.@check_args ScaledShiftedRayleigh (α, α > zero(α)) (σ, σ > zero(σ))
+    return ScaledShiftedRayleigh{T}(α, σ)
 end
+
+ScaledShiftedRayleigh(α::Integer, σ::Integer; check_args::Bool=true) = ScaledShiftedRayleigh(float(α), float(σ); check_args=check_args)
+ScaledShiftedRayleigh() = ScaledShiftedRayleigh{Float64}(1.0, 1.0)
+
+#### Conversions
+
+convert(::Type{ScaledShiftedRayleigh{T}}, σ::S) where {T <: Real, S <: Real} = ScaledShiftedRayleigh(T(α),T(σ))
+## Base.convert(::Type{Rayleigh{T}}, d::Rayleigh) where {T<:Real} = Rayleigh{T}(T(d.σ))
+## Base.convert(::Type{Rayleigh{T}}, d::Rayleigh{T}) where {T<:Real} = d
+
+# Implement the PDF method for the custom distribution
+pdf(d::ScaledShiftedRayleigh, x::T) where {T<:Real} = (x - d.α) / d.σ^2 * exp(-((x - d.α)^2) / (2 * d.σ^2))
+
+# Implement the mean method for the custom distribution
+mean(d::ScaledShiftedRayleigh) = sqrt(pi / 2) * d.σ + d.α
+
+# Implement the log-likelihood method for the custom distribution
+function logpdf(d::ScaledShiftedRayleigh, x::T) where {T<:Real}
+    return -(x - d.α)^2 / (2 * d.σ^2) - log(d.σ) - 0.5 * log(2 * π)
+end
+
+# ! Not finished
+function log_likelihood(d::ScaledShiftedRayleigh, data::ScaledShiftedRayleighSampler) 
+    return sum(logpdf(CustomRayleigh(true_α, true_σ), x) for x in data)
+end
+
+# pdf(d::MyDist, x::Float64) = pdf(Normal(d.mu, 2*d.sigma), x)
+# rand(d::MyDist) = rand(Normal(d.mu, 2*d.sigma))
+# sampler(d::MyDist) = sampler(Normal(d.mu, 2*d.sigma))
+# logpdf(d::MyDist, x::Real) = logpdf(Normal(d.mu, 2*d.sigma), x)
+# cdf(d::MyDist, x::Real) = cdf(Normal(d.mu, 2*d.sigma), x)
+# quantile(d::MyDist, q::Real) = quantile(Normal(d.mu, 2*d.sigma), q)
+# minimum(d::MyDist) = -Inf
+# maximum(d::MyDist) = Inf
+# insupport(d::MyDist, x::Real) = insupport(Normal(d.mu, 2*d.sigma), x)
+# mean(d::MyDist) = mean(Normal(d.mu, 2*d.sigma))
+# var(d::MyDist) = var(Normal(d.mu, 2*d.sigma))
+
+end
+
+
