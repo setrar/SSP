@@ -51,3 +51,7 @@ Let us know if there is a problem.
 # References
 
 - [ ] [JuliaPlots: Recipes](https://docs.juliaplots.org/latest/recipes/)
+
+```julia
+julia> include("rayleigh-GPT.jl")
+```
