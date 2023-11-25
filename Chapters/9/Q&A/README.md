@@ -2,6 +2,7 @@
 
 | Question |
 |-|
+| [Is Statistics used in signal processing?](#catgpt-is-statistics-used-in-signal-processing) |
 | [Is statistics big part of AI](#catgpt-is-statistics-big-part-of-ai) |
 | [What is the difference between gauss vs bayes?](#catgpt-what-is-the-difference-between-gauss-vs-bayes) |
 | [What is an orthogonal matrix?](#catgpt-what-is-an-orthogonal-matrix) |
