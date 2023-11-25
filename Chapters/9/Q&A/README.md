@@ -2,6 +2,7 @@
 
 | Question |
 |-|
+| [Is statistics big part of AI](#catgpt-is-statistics-big-part-of-ai) |
 | [What is the difference between gauss vs bayes?](#catgpt-what-is-the-difference-between-gauss-vs-bayes) |
 | [What is an orthogonal matrix?](#catgpt-what-is-an-orthogonal-matrix) |
 | [What is eigendecomposition of covariance matrix needed for?](#catgpt-what-is-eigendecomposition-of-covariance-matrix-needed-for) |
@@ -11,7 +12,7 @@
 | [How is Pearson correlation coefficient used in signal processing](#catgpt-how-is-pearson-correlation-coefficient-used-in-signal-processing) |
 
 
-## :cat:GPT is statistics big part of AI
+## :cat:GPT Is statistics big part of AI
 
 Yes, statistics is a significant and foundational component of artificial intelligence (AI). Statistics provides the mathematical and probabilistic framework for reasoning about uncertainty, making inferences from data, and building models that can generalize from observed patterns. Various aspects of AI heavily rely on statistical concepts and methods. Here are a few areas where statistics is essential in AI:
 
