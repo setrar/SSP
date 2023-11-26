@@ -6,7 +6,7 @@
 
 :round_pushpin: In the Julia REPL
 
-- [ ] Press `]` to access the package REPL
+- [ ] :keyboard: Press `]` keyboard key to access the package REPL
 
 ```julia
 pkg> 
