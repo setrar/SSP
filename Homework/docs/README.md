@@ -6,3 +6,5 @@
 - [ ] [StatisticalRethinkingJulia](https://github.com/StatisticalRethinkingJulia)
   - [ ] [Chapter 14. Adventures in Covariance](https://shmuma.github.io/rethinking-2ed-julia/14-Chapter%2014.%20Adventures%20in%20Covariance.html)
 ---
+
+- [ ] [ b ](https://mmmlab.rbind.io/posts/2021-03-09-julia-mle/"
