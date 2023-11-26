@@ -2,7 +2,7 @@
 
 
 
-## :package: Julia Package
+## :package: Create a Julia Project
 
 :round_pushpin: In the Julia REPL
 
@@ -12,7 +12,27 @@
 pkg> 
 ```
 
-- [ ] 
+- [ ] create the new project
+
+```julia
+julia> mkdir("My Project")
+```
+
+- [ ] descend to the new project
+
+```julia
+julia> cd("My Project")
+```
+
+- [ ] Check the descent to the new project
+
+```julia
+julia> pwd()
+"~/Developer/SSP/Homework/1/My Project"
+```
+
+
+
 
 ### Verifying Package Location
 
