@@ -2,7 +2,7 @@
 
 
 
-## Julia Package
+## :package: Julia Package
 
 :round_pushpin: In the Julia REPL
 
