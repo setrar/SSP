@@ -350,3 +350,41 @@ Here are some ways in which the Pearson correlation coefficient is used in signa
    ```
 
 It's important to note that while the Pearson correlation coefficient is a powerful tool, it is sensitive to linear relationships and may not capture nonlinear dependencies between signals. In some cases, alternative measures such as the cross-correlation function or other similarity metrics may be more appropriate, depending on the specific characteristics of the signals being analyzed.
+
+## :cat:GPT What does drawing samples from posterior distribution means?
+
+Drawing samples from the posterior distribution is a key concept in Bayesian statistics. The posterior distribution is the probability distribution of the parameters of a statistical model given the observed data and prior information. It is obtained by applying Bayes' theorem, which updates our beliefs about the parameters based on new data.
+
+In Bayesian statistics, the posterior distribution is proportional to the product of the likelihood function (how well the data is explained by the model) and the prior distribution (our initial beliefs about the parameters). Mathematically, the posterior distribution \(P(\theta | X)\) for a parameter \(\theta\) given observed data \(X\) is given by:
+
+$$P(\theta | X) \propto P(X | \theta) \cdot P(\theta)$$
+
+Here:
+- \(P(\theta | X)\) is the posterior distribution.
+- \(P(X | \theta)\) is the likelihood, representing how likely the data is given the parameter values.
+- \(P(\theta)\) is the prior distribution, representing our initial beliefs about the parameter values.
+- \(X\) is the observed data.
+
+Drawing samples from the posterior distribution means generating random values of the parameters \(\theta\) according to the probability distribution defined by the posterior. This process allows us to approximate the posterior distribution and make probabilistic inferences about the parameters.
+
+One common method for drawing samples from the posterior distribution is Markov Chain Monte Carlo (MCMC), where algorithms like the Metropolis-Hastings algorithm or the Gibbs sampler are employed. Another method is Variational Inference, which approximates the posterior with a simpler distribution.
+
+The samples obtained from the posterior distribution can be used to estimate posterior means, variances, quantiles, and other statistics, providing a comprehensive view of the uncertainty in the parameter estimates given the observed data and prior beliefs.
+
+## :cat:GPT Does that mean it's working backward from the output to the input?
+
+Yes, Bayesian inference can be thought of as working backward from the output to the input. In traditional statistical inference, one might start with a hypothesis (parameters of a statistical model) and then use data to update beliefs about those parameters. However, in Bayesian inference, it reverses this process by starting with a prior distribution representing initial beliefs about the parameters and then updating those beliefs based on observed data to obtain a posterior distribution.
+
+Here is a simplified step-by-step explanation:
+
+1. **Prior Distribution:** You start with a prior distribution, representing your initial beliefs or knowledge about the parameters of interest. This is your "prior" because it comes before observing any data.
+
+2. **Likelihood Function:** You incorporate observed data into the analysis through the likelihood function, which describes how well the data is explained by different parameter values.
+
+3. **Bayes' Theorem:** Bayes' theorem is applied to combine the prior distribution and the likelihood function, yielding the posterior distribution. The posterior represents your updated beliefs about the parameters given both prior information and the observed data.
+
+\[ \text{Posterior} \propto \text{Likelihood} \times \text{Prior} \]
+
+4. **Drawing Samples:** To obtain samples from the posterior distribution, Bayesian methods often use techniques like Markov Chain Monte Carlo (MCMC) or Variational Inference. These methods generate random samples from the posterior, allowing for uncertainty quantification and statistical inference.
+
+So, in a sense, Bayesian inference involves updating beliefs about parameters based on observed data, moving from the output (data) back to the input (parameters), and obtaining a more refined understanding of the parameters given both prior information and new evidence.

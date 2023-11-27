@@ -6,3 +6,6 @@
 - [ ] [StatisticalRethinkingJulia](https://github.com/StatisticalRethinkingJulia)
   - [ ] [Chapter 14. Adventures in Covariance](https://shmuma.github.io/rethinking-2ed-julia/14-Chapter%2014.%20Adventures%20in%20Covariance.html)
 ---
+
+- [ ] [ Maximum Likelihood Estimation with Julia](https://mmmlab.rbind.io/posts/2021-03-09-julia-mle)
+- [ ] [ Review of the Mathematics of Logistic Regression via MLE](https://github.com/johnmyleswhite/julia_tutorials/blob/master/Statistics%20in%20Julia%20-%20Maximum%20Likelihood%20Estimation.ipynb)
