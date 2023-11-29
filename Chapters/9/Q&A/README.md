@@ -400,16 +400,18 @@ In linear algebra, the Hermitian transpose is a generalization of the transpose 
 
 For a complex matrix A, the Hermitian transpose is obtained by taking the transpose of the matrix and then conjugating each element. The operation is defined as follows:
 
-$$(A^H)_{ij} = \overline{A_{ji}}$$
+```math
+(A^H)_{ij} = \overline{A_{ji}}
+```
 
 Here:
 
-$$
+```math
 \beging{gather}
 - A_{ij} \text{ is the element in the i-th row and j-th column of matrix } A.
 - \overline{A_{ji}} \text{ represents the complex conjugate of } A_{ji}.
 \end{gather}
-$$
+```
 
 In other words, to obtain the Hermitian transpose of a complex matrix, you swap the rows and columns and take the complex conjugate of each element.
 
