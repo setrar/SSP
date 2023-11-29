@@ -409,6 +409,7 @@ Here:
 ```math
 \begin{gather}
 - A_{ij} \text{ is the element in the i-th row and j-th column of matrix } A.
+\\
 - \overline{A_{ji}} \text{ represents the complex conjugate of } A_{ji}.
 \end{gather}
 ```
@@ -417,8 +418,13 @@ In other words, to obtain the Hermitian transpose of a complex matrix, you swap 
 
 The Hermitian transpose has important properties, particularly in the context of complex linear algebra and quantum mechanics. For example:
 
-1. If \(A\) is Hermitian (\(A = A^H\)), then all its eigenvalues are real.
-2. The inner product of two complex vectors \(\mathbf{u}\) and \(\mathbf{v}\) can be expressed as \(\mathbf{u}^H \mathbf{v}\).
+```math
+\begin{gather}
+\text{ 1. If } A \text{ is Hermitian } (A = A^H\)) \text{ , then all its eigenvalues are real.}
+\\
+\text{ 2. The inner product of two complex vectors } \mathbf{u} \text{  and } \mathbf{v} \text{ can be expressed as } \mathbf{u}^H \mathbf{v}\).
+\end{gather}
+```
 
 In programming languages or mathematical software, you may encounter various notations for the Hermitian transpose. For instance:
 - In MATLAB, the Hermitian transpose is denoted by the apostrophe (\(A^*\)).
