@@ -408,7 +408,7 @@ Here:
 
 ```math
 \begin{gather}
-- A_{ij} \text{ is the element in the i-th row and j-th column of matrix } A.
+- A_{ij} \text{ is the element in the i-th row and j-th column of matrix } A. \qquad \qquad \qquad \qquad 
 \\
 - \overline{A_{ji}} \text{ represents the complex conjugate of } A_{ji}.
 \end{gather}
