@@ -11,6 +11,7 @@
 | [What is AD Automatic Differentiation?](#catgpt-what-is-ad-automatic-differentiation) |
 | [What are the differences between inner product and dot product?](#catgpt-what-are-the-differences-between-inner-product-and-dot-product) |
 | [How is Pearson correlation coefficient used in signal processing](#catgpt-how-is-pearson-correlation-coefficient-used-in-signal-processing) |
+| [What is an hermitian transpose?](#catgpt-what-is-an-hermitian-transpose)|
 
 ## :cat:GPT Is Statistics used in signal processing
 
