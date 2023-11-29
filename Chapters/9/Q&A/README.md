@@ -420,9 +420,9 @@ The Hermitian transpose has important properties, particularly in the context of
 
 ```math
 \begin{gather}
-\text{ 1. If } A \text{ is Hermitian } (A = A^H\)) \text{ , then all its eigenvalues are real.}
+\text{ 1. If } A \text{ is Hermitian } (A = A^H) \text{ , then all its eigenvalues are real.} \qquad \qquad
 \\
-\text{ 2. The inner product of two complex vectors } \mathbf{u} \text{  and } \mathbf{v} \text{ can be expressed as } \mathbf{u}^H \mathbf{v}\).
+\text{ 2. The inner product of two complex vectors } \mathbf{u} \text{  and } \mathbf{v} \text{ can be expressed as } \mathbf{u}^H \mathbf{v}.
 \end{gather}
 ```
 
