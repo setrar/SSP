@@ -408,7 +408,7 @@ Here:
 
 ```math
 \begin{gather}
-- A_{ij} \text{ is the element in the i-th row and j-th column of matrix } A. \qquad \qquad \qquad \qquad 
+- A_{ij} \text{ is the element in the i-th row and j-th column of matrix } A. \qquad \qquad
 \\
 - \overline{A_{ji}} \text{ represents the complex conjugate of } A_{ji}.
 \end{gather}
@@ -427,8 +427,8 @@ The Hermitian transpose has important properties, particularly in the context of
 ```
 
 In programming languages or mathematical software, you may encounter various notations for the Hermitian transpose. For instance:
-- In MATLAB, the Hermitian transpose is denoted by the apostrophe (\(A^*\)).
-- In Julia, you can use the adjoint function (\(adjoint(A)\)).
+- In MATLAB, the Hermitian transpose is denoted by the apostrophe $$(A^*)$$
+- In Julia, you can use the adjoint function $$(adjoint(A))$$
 - In Python's NumPy, it is represented by the `A.conj().T` expression.
 
 The Hermitian transpose generalizes the concept of the transpose to complex matrices and plays a crucial role in various mathematical and computational applications.
