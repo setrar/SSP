@@ -407,7 +407,7 @@ For a complex matrix A, the Hermitian transpose is obtained by taking the transp
 Here:
 
 ```math
-\beging{gather}
+\begin{gather}
 - A_{ij} \text{ is the element in the i-th row and j-th column of matrix } A.
 - \overline{A_{ji}} \text{ represents the complex conjugate of } A_{ji}.
 \end{gather}
