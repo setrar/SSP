@@ -392,7 +392,11 @@ So, in a sense, Bayesian inference involves updating beliefs about parameters ba
 
 ## :cat:GPT What is an hermitian transpose?
 
-The term "Hermitian transpose" refers to the conjugate transpose or adjoint of a complex matrix. It is also known as the "conjugate transpose" or "adjoint" and is denoted by \(A^H\) or \(A^*\). In linear algebra, the Hermitian transpose is a generalization of the transpose operation for complex numbers.
+The term "Hermitian transpose" refers to the conjugate transpose or adjoint of a complex matrix. It is also known as the "conjugate transpose" or "adjoint" and is denoted by:
+
+$$A^H \text{ or } A^* $$. 
+
+In linear algebra, the Hermitian transpose is a generalization of the transpose operation for complex numbers.
 
 For a complex matrix \(A\), the Hermitian transpose is obtained by taking the transpose of the matrix and then conjugating each element. The operation is defined as follows:
 
