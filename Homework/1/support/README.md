@@ -1,4 +1,4 @@
 
 | PPL | NoteBook |
 |-|-|
-| Turing.jl | [golf.jl.ipynb](golf.jl.ipynb) |
+| [Turing.jl](https://turinglang.org/) | [golf.jl.ipynb](golf.jl.ipynb) |
