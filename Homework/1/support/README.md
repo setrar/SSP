@@ -1,5 +1,5 @@
 
-|  NoteBook | Distributions | Optimization | Features | PPL |
+|  NoteBook | Distributions | Optimization | PPL | Features | 
 |-|-|-|-|-|
 | [display-multiple-pdf-Normal.ipynb](display-multiple-pdf-Normal.ipynb) | Normal, Logistic, truncated Normal, Binomial | | [Turing.jl](https://turinglang.org/)  |
 | [golf.jl.ipynb](golf.jl.ipynb) | Normal, Logistic, truncated Normal, Binomial | | [Turing.jl](https://turinglang.org/)  |
