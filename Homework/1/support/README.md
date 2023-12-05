@@ -1,4 +1,4 @@
 
 | | NoteBook |
 |-|-|
-| | [Golf](golf.jl.ipynb) |
+| | [golf.jl.ipynb](golf.jl.ipynb) |
