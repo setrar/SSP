@@ -7,5 +7,5 @@
 
 
 ```math
-τ̂₀ \equiv \mathit{N}(\tau_0, \sigma_{τ̂₀}^2)
+τ̂₀ \sim \mathit{N}(\tau_0, \sigma_{τ̂₀}^2)
 ```
