@@ -1,6 +1,6 @@
+# &#x1F408;GPT Questions & Answers
 
-
-is an estimator a random variable?
+## &#x1F408;GPT is an estimator a random variable?
 
 Yes, an estimator is indeed a random variable. An estimator is a statistical quantity calculated from a sample of data and is used to make inferences about the population from which the sample is drawn. Because it is based on a random sample, the value of the estimator can vary from sample to sample, making it a random variable.
 
