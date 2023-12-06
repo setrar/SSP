@@ -22,6 +22,25 @@ The code you provided involves signal processing operations, specifically relate
 
 In summary, the code takes a signal `pss_0` (presumably in the frequency domain), applies the inverse Fourier transform to bring it to the time domain, and then normalizes the resulting time-domain signal. Normalization is often done to ensure that the signal has a consistent amplitude or power level, making it easier to work with or compare with other signals. The specific use case and significance would depend on the larger context of the signal processing or communication system in which this code is used.
 
+## &#x1F431;GPT What is linear combination?
+
+A linear combination is a mathematical operation where several terms are combined using scalar multiplication and addition. In a linear combination, each term is multiplied by a scalar (a numerical constant) and then added together. The coefficients used in the scalar multiplication are real or complex numbers.
+
+The general form of a linear combination of terms \(a_1, a_2, \ldots, a_n\) with corresponding coefficients \(c_1, c_2, \ldots, c_n\) is given by:
+
+\[ c_1 \cdot a_1 + c_2 \cdot a_2 + \ldots + c_n \cdot a_n \]
+
+Here:
+- \(a_1, a_2, \ldots, a_n\) are the terms being combined.
+- \(c_1, c_2, \ldots, c_n\) are the coefficients applied to each term.
+- The result is a new expression obtained by multiplying each term by its corresponding coefficient and then summing up these products.
+
+Linear combinations are fundamental in linear algebra, where vectors and matrices are often expressed as linear combinations of their components. In the context of linear algebra, a vector \(v\) can be expressed as a linear combination of its components \(v_1, v_2, \ldots, v_n\) with coefficients \(c_1, c_2, \ldots, c_n\) as:
+
+\[ v = c_1 \cdot v_1 + c_2 \cdot v_2 + \ldots + c_n \cdot v_n \]
+
+Linear combinations are also prevalent in various mathematical and scientific disciplines, such as physics, engineering, and optimization, where they provide a flexible way to express relationships and operations involving multiple variables.
+
 ## &#x1F431;GPT Is it related to linear regression
 
 Yes, the concept of a linear combination is closely related to linear regression. In linear regression, the goal is to model the relationship between a dependent variable (response variable) and one or more independent variables (predictors) by fitting a linear equation to the observed data.
