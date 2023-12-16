@@ -55,3 +55,5 @@ Let us know if there is a problem.
 ```julia
 julia> include("rayleigh-GPT.jl")
 ```
+
+- [ ] [Linear mixed effect models](https://oizin.github.io/posts/linear-mixed-effects/index.html)
