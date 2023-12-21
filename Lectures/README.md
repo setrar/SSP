@@ -36,3 +36,7 @@ M = \begin{bmatrix}
 # References
 
 - [ ] [ssp_session1_introgaussmarkov](https://mediaserver.eurecom.fr/permalink/v125f69f97f4bh0hrwww/)
+- [ ] [The open source software to split, merge and rotate PDF files](https://pdfsam.org/download-pdfsam-basic/)
+```
+brew install --cask pdfsam-basic
+```
