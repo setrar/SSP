@@ -21,3 +21,4 @@ Linear Algebra review on course website
 
 - [ ] [Linear Image Denoising](https://nbviewer.org/github/gpeyre/numerical-tours/blob/master/julia/denoisingsimp_2b_linear_image.ipynb)
 - [ ] [mkowalski: INTRODUCTION TO SIGNAL PROCESSING](http://hebergement.universite-paris-saclay.fr/mkowalski/SigPro/)
+- [ ] [Guido Schuster: Spectrum estimation using Periodogram, Bartlett and Welch ](http://www.laurent-duval.eu/Documents-Common/Schuster_G_2010_lect_spectrum_upbw.pdf)
