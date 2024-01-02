@@ -25,3 +25,4 @@ Linear Algebra review on course website
 - [ ] [Stephen Roberts: Lecture 4 - Spectral Estimation](https://www.robots.ox.ac.uk/~sjrob/Teaching/B14_SP/b14_sp_lect4.pdf)
 - [ ] [Spectral Estimation: Examples from research of Kyoung Hoon Lee, Aaron Hastings, Don Gallant, Shashikant More, Weonchan Sung Herrick Graduate Students](https://engineering.purdue.edu/ME579/SummaryEstim.pdf)
 - [ ] [Probability Distributions and their Mass/Density Functions](https://tinyheero.github.io/2016/03/17/prob-distr.html)
+- [ ] [Markus Hoffmann: Digital Signal Processing Maths](https://cas.web.cern.ch/sites/default/files/lectures/sigtuna-2007/hoffmann.pdf)
