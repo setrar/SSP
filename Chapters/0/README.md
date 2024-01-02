@@ -16,3 +16,7 @@ Linear Algebra review on course website
 
 - [ ] [Motonobu Kanagawa Teaching](https://sites.google.com/site/motonobukanagawa/teaching)
 - [ ] [INTRODUCTION TO STATISTICS](https://www.eurecom.fr/en/course/introstat-2024spring)
+
+> Julia
+
+- [ ] [Linear Image Denoising](https://nbviewer.org/github/gpeyre/numerical-tours/blob/master/julia/denoisingsimp_2b_linear_image.ipynb)
