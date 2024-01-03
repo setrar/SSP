@@ -1,4 +1,5 @@
 # Probability
 
 
-[statistics](statistics.ipynb)
+- [statistics](statistics.ipynb)
+- [Random Variables](Random Variables)
