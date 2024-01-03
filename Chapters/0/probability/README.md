@@ -2,4 +2,4 @@
 
 
 - [statistics](statistics.ipynb)
-- [Random Variables](Random Variables)
+- [Random Variables](Random%20Variables)
