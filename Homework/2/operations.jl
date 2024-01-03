@@ -17,6 +17,11 @@ struct Conjugater end
 const ˣ = Conjugater() #typed \^x
 Base.:(*)(x, ::Conjugater) = conj.(x)
 
+# Hermitian postfix operation
+struct Hermitianer end
+const ᴴ = Hermitianer() #typed \^H
+Base.:(*)(x, ::Hermitianer) = conj(transpose(x))
+
 # Convolution infix function
 function ⊗(a, b) 
     return conv(a,b)
