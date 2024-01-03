@@ -3,7 +3,7 @@
 See also the MathEng (Mathematical Methods for Engineers) and Optim (Fundamentals of Optimization) courses and a
 Linear Algebra review on course website
 
-- probability & [statistics](statistics.ipynb)
+- [probability](probability)
 - linear algebra
 - multivariate Gaussian distribution, Gauss-Markov theorem
 - complex Gaussian variables, circularity
