@@ -2,6 +2,7 @@
 
 ## Bayesian Parameter Estimation
 - [ ] [Responses Question 1](hw2-Q1.ipynb)
+- [ ] [Responses Question 2](hw2-Q2.ipynb)
 
 # References
 
