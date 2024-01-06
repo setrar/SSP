@@ -1,5 +1,8 @@
 # Homework 2
 
+## Bayesian Parameter Estimation
+- [ ] [Responses Question 1](hw2-Q1.ipynb)
+
 # References
 
 - [ ] [Frequentist vs. Bayesian Statistics – Which should you use?](https://learning.edanz.com/frequentist-bayesian-statistics/)
