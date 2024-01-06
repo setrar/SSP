@@ -1,7 +1,13 @@
 # Homework 2
 
 ## Bayesian Parameter Estimation
+
+#### 1. On the Beneficial Bias of MMSE Estimation
 - [ ] [Responses Question 1](hw2-Q1.ipynb)
+
+## Deterministic Parameter Estimation
+
+#### 2. ML Estimation of Roundtrip Delay Distribution.
 - [ ] [Responses Question 2](hw2-Q2.ipynb)
 
 # References
