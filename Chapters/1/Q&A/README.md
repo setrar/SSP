@@ -122,3 +122,24 @@ Here, $\Lambda$ is a diagonal matrix, and $det(\Lambda)$ is simply the product o
 The multivariate Gaussian distribution is now decoupled along the different dimensions, and we have k independent univariate Gaussian distributions.
 
 The eigenfunctions (eigenvectors) play a crucial role in this diagonalization process, simplifying the expression of the distribution and making it more amenable to analysis and computation.
+
+## how many derivation order to get to the global maximum
+
+The number of derivative orders required to reach the global maximum of a function depends on the characteristics of the function. Specifically, it depends on the degree and complexity of the function, as well as the presence of local maxima or minima.
+
+In general, if a function is smooth and has a single global maximum (and no other local maxima), you would typically need to take the first derivative and set it equal to zero to find the critical points. These critical points could correspond to either maxima, minima, or saddle points. You would then use the second derivative test to determine whether each critical point is a maximum, minimum, or inconclusive.
+
+Here's a general guide:
+
+1. **First Derivative (Gradient):**
+   - Find the critical points by setting the first derivative equal to zero: \(f'(x) = 0\).
+
+2. **Second Derivative (Hessian):**
+   - Use the second derivative test to analyze the critical points. If \(f''(x) > 0\), the critical point is a local minimum. If \(f''(x) < 0\), it's a local maximum. If \(f''(x) = 0\), the test is inconclusive.
+
+3. **Higher Derivatives:**
+   - If the second derivative test is inconclusive (e.g., if \(f''(x) = 0\)), you might need to examine higher-order derivatives or use additional techniques to determine the nature of the critical points.
+
+It's important to note that not all functions have a global maximum. Functions with multiple local maxima or complex shapes may require more sophisticated optimization methods, and the analytical approach described above may not be sufficient. Numerical optimization methods, such as gradient descent, are often used in practice for finding the maximum or minimum of a function.
+
+In summary, the number of derivative orders needed to find the global maximum depends on the nature and complexity of the function. For simple, smooth functions with a single global maximum, the first and second derivatives are often sufficient. For more complex functions, numerical optimization methods may be necessary.
