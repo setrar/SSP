@@ -104,11 +104,11 @@ where:
 
 Using this eigendecomposition, we can express the inverse of the covariance matrix as:
 
-$ \Sigma^{-1} = V \Lambda^{-1} V^T $
+$\Sigma^{-1} = V \Lambda^{-1} V^T$
 
 Substituting this into the multivariate Gaussian density function, we get:
 
-$ f(x; \mu, \Sigma) = \frac{1}{\sqrt{(2\pi)^k \text{det}(\Sigma)}} \exp\left(-\frac{1}{2}(x - \mu)^T V \Lambda^{-1} V^T (x - \mu)\right) $
+$f(x; \mu, \Sigma) = \frac{1}{\sqrt{(2\pi)^k \text{det}(\Sigma)}} \exp\left(-\frac{1}{2}(x - \mu)^T V \Lambda^{-1} V^T (x - \mu)\right)$
 
 
 Now, if we define a new variable: $y = V^T (x - \mu)$
