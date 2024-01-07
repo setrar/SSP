@@ -47,9 +47,9 @@ Deriving a multivariate Gaussian distribution from a univariate Gaussian distrib
 1. **Univariate Gaussian Distribution**:
    Start with the univariate Gaussian probability density function (PDF) for a single random variable, X:
 
-   $$ f(X; \mu, \sigma^2) = \frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(X - \mu)^2}{2\sigma^2}} $$
+   $ f(X; \mu, \sigma^2) = \frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(X - \mu)^2}{2\sigma^2}} $
 
-   $$ \text { Here,  } \mu \text{ represents the mean and } \sigma^2 \text { represents the variance. } $$
+   $ \text { Here,  } \mu \text{ represents the mean and } \sigma^2 \text { represents the variance. } $
 
 2. **Multivariate Gaussian Distribution**:
    Now, we extend this to a multivariate case with n variables, X1, X2, ..., Xn, assuming independence:
