@@ -70,12 +70,12 @@ It is calculated based on the variances and covariances of the individual variab
 
 For example, if variables $X_1$ and $X_2$ have variances $\sigma_1^2$ and  $\sigma_2^2$ , respectively, and a covariance $\sigma_{12}$ between them, then the covariance matrix $\boldsymbol{\Sigma}$ would be:
 
-$
+$$
 \boldsymbol{\Sigma} = \begin{bmatrix}
       \sigma_1^2 & \sigma_{12} \\
       \sigma_{12} & \sigma_2^2
    \end{bmatrix}
-$
+$$
 
 
 This derivation extends the concept of a univariate Gaussian distribution to multiple variables while maintaining the independence assumption and using the covariance matrix to account for the relationships between variables. It's important to note that the multivariate Gaussian distribution plays a crucial role in many areas of statistics and data analysis, particularly when dealing with correlated or multivariate data.
