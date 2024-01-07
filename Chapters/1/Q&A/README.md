@@ -99,13 +99,8 @@ $$ \Sigma = V \Lambda V^T $$
 
 where:
 
-$$
-\begin{gather}
-- V \text{ is a matrix whose columns are the eigenvectors of } \Sigma \qquad \qquad
-\\
-- \Lambda \text{ is a diagonal matrix whose diagonal elements are the eigenvalues of } \Sigma
-\end{gather}
-$$
+- $V$ is a matrix whose columns are the eigenvectors of 
+- $\Lambda$ is a diagonal matrix whose diagonal elements are the eigenvalues of $\Sigma$
 
 Using this eigendecomposition, we can express the inverse of the covariance matrix as:
 
