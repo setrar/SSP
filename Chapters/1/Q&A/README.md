@@ -60,26 +60,15 @@ In this equation:
 
  - $\mathbf{X}$ represents a vector of the n random variables.
  - $\boldsymbol{\mu}$ represents a vector of means for each variable.
- - \boldsymbol{\Sigma} represents the covariance matrix of the variables.
+ - $\boldsymbol{\Sigma}$ represents the covariance matrix of the variables.
  - $|\boldsymbol{\Sigma}|$ is the determinant of the covariance matrix.
 
 3. **Covariance Matrix**:
 
-$$
-\begin{gather}
-\qquad
-\text{ The covariance matrix } \boldsymbol{\Sigma} \text { captures the relationships between variables and is crucial in defining the multivariate Gaussian. } \\
-\text { It is calculated based on the variances and covariances of the individual variables. }
-\end{gather}
-$$
+The covariance matrix $\boldsymbol{\Sigma}$ captures the relationships between variables and is crucial in defining the multivariate Gaussian.
+It is calculated based on the variances and covariances of the individual variables.
 
-$$
-\begin{gather}
-\qquad
-\text{ For example, if variables X1 and X2 have variances } \sigma_1^2 \text { and } \sigma_2^2 \text {, respectively, and a covariance } \sigma_{12} \\
-\text { between them, then the covariance matrix }  \boldsymbol{\Sigma} \text { would be: }
-\end{gather}
-$$
+For example, if variables $X_1$ and $X_2$ have variances $\sigma_1^2$ and  $\sigma_2^2$ , respectively, and a covariance $\sigma_{12}$ between them, then the covariance matrix $\boldsymbol{\Sigma}$ would be:
 
 $$
 \boldsymbol{\Sigma} = \begin{bmatrix}
