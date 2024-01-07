@@ -79,3 +79,51 @@ $$
 
 
 This derivation extends the concept of a univariate Gaussian distribution to multiple variables while maintaining the independence assumption and using the covariance matrix to account for the relationships between variables. It's important to note that the multivariate Gaussian distribution plays a crucial role in many areas of statistics and data analysis, particularly when dealing with correlated or multivariate data.
+
+## why is eigenfunction needed in derivating multivariate gaussian distribution?
+
+In the context of multivariate Gaussian distributions, eigenfunctions play a role when we are dealing with the covariance matrix and, in particular, when expressing the density function of the distribution. The eigendecomposition of the covariance matrix helps in diagonalizing it, which simplifies certain computations and allows us to express the multivariate Gaussian distribution in a more convenient form.
+
+
+$$\text { Let's consider the multivariate Gaussian density function for a vector } x \text { with mean } \mu \text { and covariance matrix } \Sigma$$
+
+$$f(x; \mu, \Sigma) = \frac{1}{\sqrt{(2\pi)^k \text{det}(\Sigma)}} \exp\left(-\frac{1}{2}(x - \mu)^T \Sigma^{-1} (x - \mu)\right)$$
+
+
+$$\text{ Here, } k \text{ is the dimensionality of the multivariate distribution, and } \text{det}(\Sigma) \text { is the determinant of the covariance matrix. }$$
+
+$$\text{ Now, if the covariance matrix } \Sigma \text{ is symmetric, it can be diagonalized using its eigendecomposition: }$$
+
+$$ \Sigma = V \Lambda V^T $$
+
+
+where:
+
+$$
+\begin{gather}
+- V \text{ is a matrix whose columns are the eigenvectors of } \Sigma \qquad \qquad
+\\
+- \Lambda \text{ is a diagonal matrix whose diagonal elements are the eigenvalues of } \Sigma
+\end{gather}
+$$
+
+Using this eigendecomposition, we can express the inverse of the covariance matrix as:
+
+$$ \Sigma^{-1} = V \Lambda^{-1} V^T $$
+
+Substituting this into the multivariate Gaussian density function, we get:
+
+$$ f(x; \mu, \Sigma) = \frac{1}{\sqrt{(2\pi)^k \text{det}(\Sigma)}} \exp\left(-\frac{1}{2}(x - \mu)^T V \Lambda^{-1} V^T (x - \mu)\right) $$
+
+
+Now, if we define a new variable: $$y = V^T (x - \mu)$$
+
+the density function becomes:
+
+$$ f(y; \mu, \Sigma) = \frac{1}{\sqrt{(2\pi)^k \text{det}(\Lambda)}} \exp\left(-\frac{1}{2}y^T \Lambda^{-1} y\right) $$
+
+$$\text { Here, } \Lambda \text{ is a diagonal matrix, and } \text{det}(\Lambda) \text{ is simply the product of its diagonal elements.}$$
+
+The multivariate Gaussian distribution is now decoupled along the different dimensions, and we have k independent univariate Gaussian distributions.
+
+The eigenfunctions (eigenvectors) play a crucial role in this diagonalization process, simplifying the expression of the distribution and making it more amenable to analysis and computation.
