@@ -49,12 +49,12 @@ Deriving a multivariate Gaussian distribution from a univariate Gaussian distrib
 
    $f(X; \mu, \sigma^2) = \frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(X - \mu)^2}{2\sigma^2}}$
 
-   Here,  $\mu$ represents the mean and $\sigma^2$ represents the variance.$
+   Here,  $\mu$ represents the mean and $\sigma^2$ represents the variance.
 
 2. **Multivariate Gaussian Distribution**:
    Now, we extend this to a multivariate case with n variables, X1, X2, ..., Xn, assuming independence:
 
-   $$ f(\mathbf{X}; \boldsymbol{\mu}, \boldsymbol{\Sigma}) = \frac{1}{\sqrt{(2\pi)^n |\boldsymbol{\Sigma}|}}e^{-\frac{1}{2} (\mathbf{X} - \boldsymbol{\mu})^T \boldsymbol{\Sigma}^{-1} (\mathbf{X} - \boldsymbol{\mu})} $$
+   $f(\mathbf{X}; \boldsymbol{\mu}, \boldsymbol{\Sigma}) = \frac{1}{\sqrt{(2\pi)^n |\boldsymbol{\Sigma}|}}e^{-\frac{1}{2} (\mathbf{X} - \boldsymbol{\mu})^T \boldsymbol{\Sigma}^{-1} (\mathbf{X} - \boldsymbol{\mu})}$
 
 In this equation:
     $$ 
