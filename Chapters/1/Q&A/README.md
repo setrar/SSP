@@ -21,11 +21,13 @@ The marginal probability density function (PDF) refers to the probability densit
 For example, let's say you have a joint probability density function $f(x, y)$ representing the distribution of two random variables $X$ and $Y$. The marginal PDF of $X$, denoted as $f_X(x)$, is obtained by integrating or summing the joint PDF over all possible values of $Y$:
 
 $f_X(x) = \int f(x, y) \, dy \quad \text{(for continuous variables)}$
+
 $f_X(x) = \sum f(x, y) \quad \text{(for discrete variables)}$
 
 Similarly, the marginal PDF of $Y$, denoted as $f_Y(y)$, is obtained by integrating or summing the joint PDF over all possible values of $X$:
 
 $f_Y(y) = \int f(x, y) \, dx \quad \text{(for continuous variables)}$
+
 $f_Y(y) = \sum f(x, y) \quad \text{(for discrete variables)}$
 
 In summary, the marginal PDF provides the probability distribution of individual variables in a multivariate distribution by "marginalizing" or summing/integrating over the other variables. This is useful when you are interested in the distribution of a specific variable, regardless of the values of the other variables.
