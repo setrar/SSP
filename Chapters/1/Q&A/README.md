@@ -32,7 +32,7 @@ $f_Y(y) = \sum f(x, y) \quad \text{(for discrete variables)}$
 
 In summary, the marginal PDF provides the probability distribution of individual variables in a multivariate distribution by "marginalizing" or summing/integrating over the other variables. This is useful when you are interested in the distribution of a specific variable, regardless of the values of the other variables.
 
-### how to derivate a multivariate Gaussian Distribution from an univariate Gaussian distribution and two postulates?
+## &#x1F431;GPT How to derivate a multivariate Gaussian Distribution from an univariate Gaussian distribution and two postulates?
 
 Deriving a multivariate Gaussian distribution from a univariate Gaussian distribution and a set of postulates is a classic exercise in statistics and probability theory. This derivation typically involves using certain assumptions or postulates to extend the univariate Gaussian to a multivariate case. Here's a basic outline of how this can be done:
 
