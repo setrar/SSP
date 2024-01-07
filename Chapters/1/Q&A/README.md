@@ -85,16 +85,16 @@ This derivation extends the concept of a univariate Gaussian distribution to mul
 In the context of multivariate Gaussian distributions, eigenfunctions play a role when we are dealing with the covariance matrix and, in particular, when expressing the density function of the distribution. The eigendecomposition of the covariance matrix helps in diagonalizing it, which simplifies certain computations and allows us to express the multivariate Gaussian distribution in a more convenient form.
 
 
-$$\text { Let's consider the multivariate Gaussian density function for a vector } x \text { with mean } \mu \text { and covariance matrix } \Sigma$$
+Let's consider the multivariate Gaussian density function for a vector $x$ with mean  $\mu$ and covariance matrix $\Sigma$
 
-$$f(x; \mu, \Sigma) = \frac{1}{\sqrt{(2\pi)^k \text{det}(\Sigma)}} \exp\left(-\frac{1}{2}(x - \mu)^T \Sigma^{-1} (x - \mu)\right)$$
+$f(x; \mu, \Sigma) = \frac{1}{\sqrt{(2\pi)^k \text{det}(\Sigma)}} \exp\left(-\frac{1}{2}(x - \mu)^T \Sigma^{-1} (x - \mu)\right)$
 
 
-$$\text{ Here, } k \text{ is the dimensionality of the multivariate distribution, and } \text{det}(\Sigma) \text { is the determinant of the covariance matrix. }$$
+Here, $k$ is the dimensionality of the multivariate distribution, and $det(\Sigma)$ is the determinant of the covariance matrix.
 
-$$\text{ Now, if the covariance matrix } \Sigma \text{ is symmetric, it can be diagonalized using its eigendecomposition: }$$
+Now, if the covariance matrix $\Sigma$ is symmetric, it can be diagonalized using its eigendecomposition:
 
-$$ \Sigma = V \Lambda V^T $$
+$\Sigma = V \Lambda V^T$
 
 
 where:
