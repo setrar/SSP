@@ -115,9 +115,9 @@ Now, if we define a new variable: $$y = V^T (x - \mu)$$
 
 the density function becomes:
 
-$$ f(y; \mu, \Sigma) = \frac{1}{\sqrt{(2\pi)^k \text{det}(\Lambda)}} \exp\left(-\frac{1}{2}y^T \Lambda^{-1} y\right) $$
+$f(y; \mu, \Sigma) = \frac{1}{\sqrt{(2\pi)^k \text{det}(\Lambda)}} \exp\left(-\frac{1}{2}y^T \Lambda^{-1} y\right)$
 
-$$\text { Here, } \Lambda \text{ is a diagonal matrix, and } \text{det}(\Lambda) \text{ is simply the product of its diagonal elements.}$$
+Here, $\Lambda$ is a diagonal matrix, and $det(\Lambda)$ is simply the product of its diagonal elements.
 
 The multivariate Gaussian distribution is now decoupled along the different dimensions, and we have k independent univariate Gaussian distributions.
 
