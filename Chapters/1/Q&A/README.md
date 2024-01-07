@@ -58,14 +58,10 @@ Deriving a multivariate Gaussian distribution from a univariate Gaussian distrib
 
 In this equation:
 
-$$
-\begin{gather}
- - \mathbf{X} \text { represents a vector of the n random variables. } \\ 
- - \boldsymbol{\mu} \text { represents a vector of means for each variable. } \\ 
- - \boldsymbol{\Sigma} \text { represents the covariance matrix of the variables. } \\ 
- - |\boldsymbol{\Sigma}| \text { is the determinant of the covariance matrix. }
-\end{gather}
-$$
+ - $\mathbf{X}$ represents a vector of the n random variables.
+ - $\boldsymbol{\mu}$ represents a vector of means for each variable.
+ - \boldsymbol{\Sigma} represents the covariance matrix of the variables.
+ - $|\boldsymbol{\Sigma}|$ is the determinant of the covariance matrix.
 
 3. **Covariance Matrix**:
 
