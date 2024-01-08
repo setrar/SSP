@@ -1,40 +1,43 @@
 using LinearAlgebra
 using Random
 
+using FFTW
+
+include("operations.jl")
+
 # Define a custom type for multivariate normal distribution
 struct MultivariateNormal
-    μ::Vector{Float64}
-    Σ::Matrix{Float64}
+    mₓ::Vector{Float64}
+    Cₓₓ::Matrix{Float64}
 end
 
 # Constructor function to create a MultivariateNormal instance
-function MvNormal(μ::Vector{Float64}, Σ::Matrix{Float64})
+function MvNormal(mₓ::Vector{Float64}, Cₓₓ::Matrix{Float64})
     # Validate that the mean and covariance have compatible sizes
-    size(μ, 1) == size(Σ, 1) == size(Σ, 2) || throw(ArgumentError("Incompatible sizes for mean and covariance"))
+    size(mₓ, 1) == size(Cₓₓ, 1) == size(Cₓₓ, 2) || throw(ArgumentError("Incompatible sizes for mean and covariance"))
 
-    return MultivariateNormal(μ, Σ)
+    return MultivariateNormal(mₓ, Cₓₓ)
 end
 
 # PDF function for the multivariate normal distribution
-function pdfᵦ(mvn::MultivariateNormal, x::Vector{Float64})
+function pdfᵦ(mvn::MultivariateNormal, X::Vector{Float64}, m::Int64)
     # Validate that the input vector x has the same dimension as the mean
-    size(mvn.μ, 1) == size(x, 1) || throw(ArgumentError("Incompatible sizes for mean and input vector"))
+    size(mvn.mₓ, 1) == size(X, 1) || throw(ArgumentError("Incompatible sizes for mean and input vector"))
 
-    d = size(x, 1)
-    exponent = -0.5 * (x - mvn.μ)' * inv(mvn.Σ) * (x - mvn.μ)
-    normalization = (2 * π)^(-d / 2) * det(mvn.Σ)^(-0.5)
+    normalization = (2 * π)^(-m / 2) * det(mvn.Cₓₓ)^(- 1/2 )
+    exponent = - 1/2 * (X - mvn.mₓ)' * (mvn.Cₓₓ)⁻¹ * (X - mvn.mₓ)
     
     return normalization * exp(exponent)
 end
 
 # Example usage
-μ = [1.0, 2.0]
-Σ = [1.0 0.5; 0.5 1.0]
+mₓ  = [1.0, 2.0]
+Cₓₓ = [1.0 0.5; 0.5 1.0]
 
-mvn = MvNormal(μ, Σ)
+mvn = MvNormal(mₓ, Cₓₓ)
 
 # Evaluate PDF for a specific point
 point = [1.5, 2.5]
-result = pdfᵦ(mvn, point)
+result = pdfᵦ(mvn, point, 2)
 
 println("PDF at $point: $result")
