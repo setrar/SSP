@@ -16,7 +16,7 @@ function MvNormal(μ::Vector{Float64}, Σ::Matrix{Float64})
 end
 
 # PDF function for the multivariate normal distribution
-function pdf(mvn::MultivariateNormal, x::Vector{Float64})
+function pdfᵦ(mvn::MultivariateNormal, x::Vector{Float64})
     # Validate that the input vector x has the same dimension as the mean
     size(mvn.μ, 1) == size(x, 1) || throw(ArgumentError("Incompatible sizes for mean and input vector"))
 
@@ -35,6 +35,6 @@ mvn = MvNormal(μ, Σ)
 
 # Evaluate PDF for a specific point
 point = [1.5, 2.5]
-result = pdf(mvn, point)
+result = pdfᵦ(mvn, point)
 
 println("PDF at $point: $result")
