@@ -18,6 +18,6 @@ f1=sigpar(1);
 f2=sigpar(2);
 A1=sigpar(3);
 A2=sigpar(4);
-y=A1*cos(2*pi*(f1*[1:N]'+rand))+A2*cos(2*pi*((f2)*[1:N]'+rand));
+y=A1*cos(2*pi*(f1*[1:N]'+rand)) + A2*cos(2*pi*((f2)*[1:N]'+rand));
 y=y+randn(N,1);
 y=y(:);
