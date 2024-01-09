@@ -7,6 +7,6 @@
 |            | [Q2](1/hw1-ii.jl.ipynb)       |
 |            | [Q3](1/hw1-iii-iv-v.jl.ipynb) |
 | [:two:](2) | |
-|            | [Q1](hw2-Q1.ipynb) |
-|            | [Q2](hw2-Q2.ipynb) |
+|            | [Q1](2/hw2-Q1.ipynb) |
+|            | [Q2](2/hw2-Q2.ipynb) |
 
