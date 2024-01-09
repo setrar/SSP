@@ -9,4 +9,6 @@
 | [:two:](2) | |
 |            | [Q1](2/hw2-Q1.ipynb) |
 |            | [Q2](2/hw2-Q2.ipynb) |
-
+| [:three:](3) | |
+|            | [Part I](Part%20I/SpectrumEstimation.ipynb) |
+|            | [Part II](Part%20II/SpectrumEstimation.ipynb) |
