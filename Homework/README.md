@@ -1,7 +1,7 @@
 # Homework Attempts
 
-| Homeworks |
-|-|
+| Homeworks |-|
+|-|-|
 | [:one:](1) | |
 |            | [Q1](hw1-i.jl.ipynb)        |
 |            | [Q2](hw1-ii.jl.ipynb)       |
