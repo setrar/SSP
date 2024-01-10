@@ -88,7 +88,7 @@ Examples of causal filters include:
 
 Causal filters are widely used in applications like signal processing, control systems, and communication systems. The causality property is crucial in real-time systems where future information is not available for computation.
 
-### Zero-Forcing Estimator
+### Zero-Forcing Equalizer
 
 "Zero-forcing" is a term used in multiple contexts, including communication systems, linear algebra, and signal processing. Here are a couple of common meanings:
 
