@@ -87,3 +87,22 @@ Examples of causal filters include:
 - **FIR Filter with Finite Support:** FIR filters with a finite number of coefficients, where the output is a weighted sum of past and present inputs.
 
 Causal filters are widely used in applications like signal processing, control systems, and communication systems. The causality property is crucial in real-time systems where future information is not available for computation.
+
+### Zero-Forcing Estimator
+
+"Zero-forcing" is a term used in multiple contexts, including communication systems, linear algebra, and signal processing. Here are a couple of common meanings:
+
+### 1. **Zero-Forcing Equalization (Communication Systems):**
+In the context of communication systems, particularly in digital communication, zero-forcing equalization is a technique used to mitigate intersymbol interference (ISI). ISI occurs when symbols transmitted over a communication channel interfere with each other, making it challenging to accurately detect the transmitted symbols at the receiver.
+
+Zero-forcing equalization works by applying an inverse filter that "forces" the channel to have zero response at the symbol sampling instants, effectively canceling out the interference. While this can help mitigate ISI, zero-forcing equalization may amplify noise and result in noise enhancement.
+
+### 2. **Zero-Forcing Precoding (MIMO Systems):**
+In multiple-input multiple-output (MIMO) communication systems, zero-forcing precoding is a technique used at the transmitter to eliminate interference among different transmit antennas.
+
+The goal of zero-forcing precoding is to create a spatial null at the locations of the interfering signals, effectively "forcing" the interference to zero. This can improve the performance of the communication system by reducing interference, but it may also lead to noise enhancement.
+
+### 3. **Zero-Forcing Matrix Inversion (Linear Algebra):**
+In linear algebra, zero-forcing can refer to a method used for solving linear systems of equations. In the context of matrix inversion, zero-forcing involves setting certain elements of the inverse matrix to zero to simplify computations.
+
+In general, the term "zero-forcing" implies a strategy or technique that aims to eliminate or mitigate certain effects, often by setting specific components or responses to zero. The application and interpretation of zero-forcing depend on the specific context in which it is used.
