@@ -8,7 +8,7 @@ $r_{xy}(\tau) = \int_{-\infty}^{\infty} x(t)y(t+\tau) \,dt$
 
 Then, the theorem states:
 
-$ r_{xy}(\tau) \longleftrightarrow X^*(f)Y(f) $
+$r_{xy}(\tau) \longleftrightarrow X^*(f)Y(f)$
 
 Here,
 - \(r_{xy}(\tau)\) is the cross-correlation function of \(x(t)\) and \(y(t)\) at time lag \(\tau\).
