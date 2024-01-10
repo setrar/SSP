@@ -1,4 +1,5 @@
 
+#### The Fourier Transform Correlation Theorem 
 
 The Fourier Transform Correlation Theorem is a fundamental result that describes the relationship between the time-domain correlation of two signals and their frequency-domain representations through Fourier transforms. The theorem is also known as the Wiener-Khinchin Theorem.
 
@@ -18,3 +19,19 @@ Here,
 In simpler terms, the theorem tells us that the cross-correlation in the time domain corresponds to the product of the complex conjugates of the Fourier transforms in the frequency domain.
 
 This relationship is particularly useful in signal processing and communication systems, where cross-correlation and convolution operations are prevalent. The Fourier Transform Correlation Theorem provides a convenient way to analyze these operations in the frequency domain, simplifying calculations and providing insights into the behavior of signals.
+
+### we assume w.l.o.g
+
+The phrase "without loss of generality" (w.l.o.g. or WLOG) is often used in mathematical proofs or discussions to simplify the presentation by making an assumption that doesn't restrict the generality of the argument. When a statement is made "without loss of generality," it means that the argument or conclusion holds true for the specific case being considered, and the same logic can be applied to other equivalent cases.
+
+Here's how it works:
+
+1. **Assumption:** An assumption is made about a specific case or scenario.
+
+2. **Argument:** The argument or proof is presented based on that assumption.
+
+3. **Generalization:** The conclusion is then generalized to other equivalent cases.
+
+For example, if you're proving something about a square, you might assume, without loss of generality, that one side of the square is aligned with the x-axis. The proof is then presented based on this assumption, and if the conclusion holds in this specific case, it is considered to hold for all squares, regardless of their orientation.
+
+The use of "without loss of generality" is a way to streamline the presentation and avoid unnecessary complexity in the proof. It's a common practice in mathematics and other formal disciplines to make such assumptions when they simplify the argument and don't affect the validity of the conclusion.
