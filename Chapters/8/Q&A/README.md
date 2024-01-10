@@ -65,3 +65,25 @@ In complex analysis, a circular integral could refer to a line integral along a 
 where \(C\) is a closed contour in the complex plane, and \(f(z)\) is a complex-valued function.
 
 If you have a specific context or expression in mind, please provide more details so I can give you a more precise explanation.
+
+A causal filter, in the context of signal processing and system theory, is a type of filter whose output at any given time depends only on past and present inputs. In other words, the output of a causal filter is not influenced by future inputs. Causality is a fundamental concept in system theory, ensuring that the system's response does not rely on information from the future.
+
+Key characteristics of a causal filter include:
+
+1. **Causality:** The filter response is causal, meaning that the output is determined based on the current and past input values.
+
+2. **Finite or Infinite Impulse Response (FIR or IIR):** Causal filters can be either finite impulse response (FIR) or infinite impulse response (IIR). FIR filters only have a finite number of coefficients, while IIR filters have infinite impulse responses.
+
+3. **Memory:** Causal filters typically have memory, meaning they retain information about past inputs to compute the current output.
+
+Examples of causal filters include:
+
+- **Moving Average (MA) Filter (FIR):** A simple FIR filter where the output is the average of the last N input values.
+
+- **Exponential Moving Average (EMA) Filter (IIR):** An IIR filter that gives more weight to recent inputs while exponentially decreasing the weight of older inputs.
+
+- **Low-Pass Filter (FIR or IIR):** Filters that allow low-frequency components to pass through while attenuating higher frequencies. Various designs, such as Butterworth or Chebyshev filters, can be causal.
+
+- **FIR Filter with Finite Support:** FIR filters with a finite number of coefficients, where the output is a weighted sum of past and present inputs.
+
+Causal filters are widely used in applications like signal processing, control systems, and communication systems. The causality property is crucial in real-time systems where future information is not available for computation.
