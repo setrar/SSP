@@ -2,9 +2,9 @@
 
 The Fourier Transform Correlation Theorem is a fundamental result that describes the relationship between the time-domain correlation of two signals and their frequency-domain representations through Fourier transforms. The theorem is also known as the Wiener-Khinchin Theorem.
 
-The Fourier Transform Correlation Theorem states that the cross-correlation function of two signals in the time domain is equivalent to the product of their Fourier transforms in the frequency domain. Mathematically, if \(x(t)\) and \(y(t)\) are two signals with Fourier transforms \(X(f)\) and \(Y(f)\), and cross-correlation function \(r_{xy}(\tau)\) is given by:
+The Fourier Transform Correlation Theorem states that the cross-correlation function of two signals in the time domain is equivalent to the product of their Fourier transforms in the frequency domain. Mathematically, if $x(t)$ and $y(t)$ are two signals with Fourier transforms \(X(f)\) and \(Y(f)\), and cross-correlation function \(r_{xy}(\tau)\) is given by:
 
-$ r_{xy}(\tau) = \int_{-\infty}^{\infty} x(t)y(t+\tau) \,dt $
+$r_{xy}(\tau) = \int_{-\infty}^{\infty} x(t)y(t+\tau) \,dt$
 
 Then, the theorem states:
 
