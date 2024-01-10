@@ -4,11 +4,11 @@ The Fourier Transform Correlation Theorem is a fundamental result that describes
 
 The Fourier Transform Correlation Theorem states that the cross-correlation function of two signals in the time domain is equivalent to the product of their Fourier transforms in the frequency domain. Mathematically, if \(x(t)\) and \(y(t)\) are two signals with Fourier transforms \(X(f)\) and \(Y(f)\), and cross-correlation function \(r_{xy}(\tau)\) is given by:
 
-\[ r_{xy}(\tau) = \int_{-\infty}^{\infty} x(t)y(t+\tau) \,dt \]
+$ r_{xy}(\tau) = \int_{-\infty}^{\infty} x(t)y(t+\tau) \,dt $
 
 Then, the theorem states:
 
-\[ r_{xy}(\tau) \longleftrightarrow X^*(f)Y(f) \]
+$ r_{xy}(\tau) \longleftrightarrow X^*(f)Y(f) $
 
 Here,
 - \(r_{xy}(\tau)\) is the cross-correlation function of \(x(t)\) and \(y(t)\) at time lag \(\tau\).
