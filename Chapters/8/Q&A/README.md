@@ -12,9 +12,9 @@ Then, the theorem states:
 $r_{xy}(\tau) \longleftrightarrow X^*(f)Y(f)$
 
 Here,
-- \(r_{xy}(\tau)\) is the cross-correlation function of \(x(t)\) and \(y(t)\) at time lag \(\tau\).
-- \(X^*(f)\) is the complex conjugate of the Fourier transform of \(x(t)\).
-- \(Y(f)\) is the Fourier transform of \(y(t)\).
+- $r_{xy}(\tau)$ is the cross-correlation function of $x(t)$ and $y(t)$ at time lag $\tau$.
+- $X^*(f)$ is the complex conjugate of the Fourier transform of $x(t)$.
+- $Y(f)$ is the Fourier transform of $y(t)$.
 
 In simpler terms, the theorem tells us that the cross-correlation in the time domain corresponds to the product of the complex conjugates of the Fourier transforms in the frequency domain.
 
