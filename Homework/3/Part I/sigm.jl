@@ -12,5 +12,7 @@ function sig(N, sigpar=[0.057, 0.082, 20, 20])
     y = A₁ * cos.(2π * (f₁ * t .+ rand())) + A₂ * cos.(2π * (f₂ * t .+ rand()))
     y += randn(N)
 
-    return y
+    # The original sig.m matlab source code has been modified 
+    # the sig function is now returning x and y to be displayed externally
+    return t, y
 end
