@@ -27,6 +27,7 @@ M = \begin{bmatrix}
 - [ ] [John Cioffi : Wikipedia](https://en.wikipedia.org/wiki/John_Cioffi)
 - [ ] [Nyquist–Shannon sampling theorem](https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem)
 - [ ] [iMultiplying matrices by scalars](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:multiplying-matrices-by-scalars/a/multiplying-matrices-by-scalars)
+- [ ] [StudySession: Numerical Analysis Course](https://www.youtube.com/playlist?list=PLDea8VeK4MUTppAXQzHBNz3KiyEd9SQms)
 
 
 ## Lecture 2
