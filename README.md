@@ -75,3 +75,4 @@ Books to ask for
 - [ ] [Statistics with Julia](https://www.amazon.com/Statistics-Julia-Fundamentals-Artificial-Intelligence/dp/3030709000)
 - [ ] [Interactive Visualization and Plotting with Julia: Create impressive data visualizations through Julia packages such as Plots, Makie, Gadfly, and more](https://www.amazon.com/Interactive-Visualization-Plotting-Julia-visualizations/dp/1801810516)
 - [ ] [Algorithms for Optimization (Mit Press) Illustrated Edition](https://www.amazon.com/Algorithms-Optimization-Press-Mykel-Kochenderfer/dp/0262039427)
+- [ ] [Signal processing problems, solved in MATLAB and in Python](https://www.udemy.com/course/signal-processing/)
