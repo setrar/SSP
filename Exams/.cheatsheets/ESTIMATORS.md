@@ -24,10 +24,10 @@ For a highly condensed overview of key estimation concepts:
 - Achieves **Cramér-Rao Bound**.
 
 ### MSE (Mean Squared Error)
-- **Accuracy measure**: \(E[(\hat{\theta} - \theta)^2]\).
+- **Accuracy measure**: $E[(\hat{\theta} - \theta)^2]$.
 
 ### MAP (Maximum A Posteriori)
-- Maximizes **posterior**: \(\arg \max_{\theta} P(\theta | \text{data})\).
+- Maximizes **posterior**: $\arg \max_{\theta} P(\theta | \text{data})$.
 - Incorporates **prior information**.
 
 ### LMMSE (Linear Minimum Mean Square Error)
@@ -50,10 +50,10 @@ For a highly condensed overview of key estimation concepts:
 - Achieves **Cramér-Rao Bound**.
 
 ### MSE (Mean Squared Error)
-- **Accuracy measure**: \(E[(\hat{\theta} - \theta)^2]\).
+- **Accuracy measure**: $E[(\hat{\theta} - \theta)^2]$.
 
 ### MAP (Maximum A Posteriori)
-- Maximizes **posterior**: \(\arg \max_{\theta} P(\theta | \text{data})\).
+- Maximizes **posterior**: $\arg \max_{\theta} P(\theta | \text{data})$.
 - Incorporates **prior information**.
 
 ### LMMSE (Linear Minimum Mean Square Error)
@@ -75,12 +75,12 @@ This ultra-condensed cheat sheet captures the core of each estimator, providing 
 
 ### Mean Squared Error (MSE)
 - **Definition**: A measure of the estimator's accuracy, representing the average of the squares of the errors.
-- **Formula**: \(MSE(\hat{\theta}) = E[(\hat{\theta} - \theta)^2]\), where \(\hat{\theta}\) is the estimator and \(\theta\) is the true parameter.
+- **Formula**: $MSE(\hat{\theta}) = E[(\hat{\theta} - \theta)^2]$, where $\hat{\theta}$ is the estimator and $\theta$ is the true parameter.
 - **Usage**: Used to assess the quality of an estimator; lower MSE indicates a better estimator.
 
 ### Maximum A Posteriori (MAP) Estimation
 - **Definition**: A Bayesian estimate of a parameter that maximizes the posterior distribution of the parameter given the data.
-- **Formula**: \(\hat{\theta}_{MAP} = \arg \max_{\theta} P(\theta | data)\), where \(P(\theta | data)\) is the posterior probability of \(\theta\).
+- **Formula**: $\hat{\theta}_{MAP} = \arg \max_{\theta} P(\theta | data)$, where $P(\theta | data)$ is the posterior probability of $\theta$.
 - **Key Property**: Incorporates prior information about the parameter through the prior distribution, differentiating it from Maximum Likelihood Estimation (MLE).
 
 ### Linear Minimum Mean Square Error (LMMSE) Estimation

@@ -3,10 +3,10 @@ Creating a cheat sheet that contrasts Classical and Bayesian estimation techniqu
 ### Classical (Frequentist) Estimation
 - **Principle**: Uses sample data to make inferences about population parameters without incorporating prior beliefs.
 - **Point Estimators**:
-  - Mean (\(\bar{x}\))
-  - Variance (\(s^2\))
-  - Proportion (\(\hat{p}\))
-  - Regression Coefficients (\(\hat{\beta}_0\), \(\hat{\beta}_1\))
+  - Mean ($\bar{x}$)
+  - Variance ($s^2$)
+  - Proportion ($\hat{p}$)
+  - Regression Coefficients ($\hat{\beta}_0$, $\hat{\beta}_1$)
 - **Properties**:
   - **Unbiasedness**: Expected value of the estimator equals the true parameter.
   - **Consistency**: Estimator converges to the true parameter as sample size increases.
@@ -28,9 +28,9 @@ Creating a cheat sheet that contrasts Classical and Bayesian estimation techniqu
   - Bayes’ Theorem: Updates the probability estimate for a hypothesis as additional evidence is acquired.
   - Numerical/Simulation Methods: Monte Carlo Markov Chain (MCMC), especially for complex models.
 - **Key Formulas**:
-  - **Bayes' Theorem for Parameter \(\theta\)**: 
-    \[P(\theta|data) = \frac{P(data|\theta)P(\theta)}{P(data)}\]
-    Where \(P(\theta|data)\) is the posterior distribution, \(P(data|\theta)\) is the likelihood of observing the data given \(\theta\), \(P(\theta)\) is the prior distribution, and \(P(data)\) is the evidence or marginal likelihood of the data.
+  - **Bayes' Theorem for Parameter $\theta$**: 
+    $P(\theta|data) = \frac{P(data|\theta)P(\theta)}{P(data)}$
+    Where $P(\theta|data)$ is the posterior distribution, $P(data|\theta)$ is the likelihood of observing the data given $\theta$, $P(\theta)$ is the prior distribution, and $P(data)$ is the evidence or marginal likelihood of the data.
 
 ### Comparative Insights:
 - **Prior Information**: Classical estimation does not incorporate prior information, while Bayesian estimation does.
