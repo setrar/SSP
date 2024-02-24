@@ -8,7 +8,7 @@ function sig(N, sigpar=[0.057, 0.082, 20, 20])
     end
 
     𝑓₁, 𝑓₂, 𝐴₁, 𝐴₂ = sigpar
-    t = 0.0:0.01:N; @show t
+    t = 0.0:0.01:N; # @show t
 
     ϕ₁, ϕ₂ = -2π * randn(), 2π * randn()
     𝑣 = randn();

@@ -44,3 +44,4 @@ Re = real # Real Part Function to extract real number from Complex Number
 Im = imag # Imaginary Part Function to extract imaginary part from Complex Number
 
 𝑁 = Normal
+|₂ = norm

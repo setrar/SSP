@@ -4,9 +4,9 @@ function window(type, L)
     if type == "bartlett"
         w = 2 * (0:(L-1)/2) / (L-1)
         if isodd(L)
-            w = vcat(w, reverse(w[1:end-1]))
+            w = w ⧺ ⦰(w[1:end-1])  # (vertically) concatenate w and its reverse from 1 to L-1
         else
-            w = vcat(w, reverse(w))
+            w = w ⧺ ⦰(w) # (vertically) concatenate w and its reverse
         end
     elseif type == "blackman"
         w = 0.42 .- 0.5 * cos.(2π * (0:L-1) / (L-1)) + 0.08 * cos.(4π * (0:L-1) / (L-1))
@@ -19,10 +19,10 @@ function window(type, L)
     elseif type == "triang"
         if isodd(L)
             w = 2 * (1:(L+1)/2) / (L+1)
-            w = vcat(w, reverse(w[1:end-1]))
+            w = w ⧺ ⦰(w[1:end-1]) 
         else
             w = (2 * (1:(L+1)/2) .- 1) / L
-            w = vcat(w, reverse(w))
+            w = w ⧺ ⦰(w) 
         end
     end
 
