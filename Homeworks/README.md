@@ -12,3 +12,7 @@
 | [:three:](3) | |
 |            | [Part I](3/Part%20I/SpectrumEstimation.ipynb) |
 |            | [Part II](3/Part%20II/ParameterEstimation.ipynb) |
+
+# References
+
+- [ ] [Aligning equations with amsmath](https://www.overleaf.com/learn/latex/Aligning_equations_with_amsmath)
