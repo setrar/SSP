@@ -45,3 +45,4 @@ Im = imag # Imaginary Part Function to extract imaginary part from Complex Numbe
 
 𝑁 = Normal
 |₂ = norm
+∠ = angle
