@@ -24,3 +24,5 @@
 - Signal decomposition and transforms
 - Introduction to Information Theory
 - [ ] [A Journey in Signal Processing with Jupyter - JEAN-FRANÇOIS BERCHER](https://perso.esiee.fr/~bercherj/Lectures_SignalProcessing/Poly.pdf)
+- [ ] [Stanford Class: AA228/CS238 - Decision Making under Uncertainty](https://aa228.stanford.edu/)
+- [ ] [ALGORITHMS FOR DECISION MAKING](https://algorithmsbook.com/)
