@@ -4,7 +4,7 @@ The report for `HW1` can be found by following the Jupyter Notebook &#x1F449; [`
 
 # &#x1F4DA; References
 
-- [ ] [](https://www.math.wm.edu/~leemis/chart/UDR/UDR.html)
+- [ ] [Univariate Distribution Relationships](https://www.math.wm.edu/~leemis/chart/UDR/UDR.html)
 
 <img src=images/UnivariateDistributionRelationships.png width='' height='' > </img>
 
